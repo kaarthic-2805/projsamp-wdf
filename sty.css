@@ -1,0 +1,82 @@
+#main{
+  display: flex;
+}
+
+body{
+    
+  background-size: cover;
+}
+
+.row g-3{
+  box-shadow: 2px 6px 10px #ffffff;
+}
+
+.navbar {
+  height: 90px; 
+}
+
+.navbar-brand {
+  font-size: 24px; 
+  padding-left: 20px; 
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px; 
+  padding: 15px 20px; 
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Add some spacing between items */
+}
+
+.form-control {
+  height: 45px; /* Increase the height of the search input */
+  font-size: 18px; /* Increase font size of the search input */
+}
+
+.btn {
+  font-size: 18px; /* Increase font size of buttons */
+  padding: 10px 20px; /* Adjust padding */
+}
+
+/* Adjust buttons for "Buses" and "Hire Cars" */
+.custom-btn {
+  margin-top: 20px; /* Add some more space at the top */
+  width: 180px; /* Increase width */
+  height: 60px; /* Increase height */
+  font-size: 20px; /* Increase font size */
+  border-radius: 10px; /* Make corners slightly more rounded */
+}
+
+.bg-cp{
+  background-color: #d3d6db;
+}
+
+/* Increase the size of the form container */
+section.container {
+  max-width: 75%; /* Increase the maximum width of the form container */
+  margin: auto; /* Center the form container horizontally */
+  padding: 2rem; /* Increase padding around the form */
+}
+
+/* Increase the size of form elements */
+.form-control {
+  font-size: 1.25rem; /* Increase font size of input fields */
+  padding: 0.75rem; /* Increase padding inside input fields */
+}
+
+.form-label {
+  font-size: 1.25rem; /* Increase font size of labels */
+}
+
+.btn {
+  font-size: 1.25rem; /* Increase font size of buttons */
+  padding: 0.75rem 1.5rem; /* Increase padding inside buttons */
+}
+
+/* Ensure form elements take up more space */
+.col-md-4, .col-md-6, .col-md-2 {
+  padding: 1rem; /* Add more space around columns */
+}
+
+
